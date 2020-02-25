@@ -3,7 +3,7 @@ class School
   
   def initialize(name)
     @name = name 
-    @roster = {}
+    def roster = {}
   end
   
   def add_student(student, grade)
