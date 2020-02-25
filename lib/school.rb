@@ -27,7 +27,7 @@ class School
   end
   
   def sort 
-    roster.sort.to_h
+    roster.keys.sort.to_h
   end
 
 end
