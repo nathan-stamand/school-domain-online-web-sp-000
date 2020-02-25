@@ -1,12 +1,16 @@
 class School 
   
-  roster = roster
+  roster = {}
   
   def initialize(name)
     @name = name 
     def roster
-      Hash.new 
+      roster = Hash.new 
     end
+  end
+  
+  def add_student=(student, grade)
+    roster[student] = grade
   end
   
   
