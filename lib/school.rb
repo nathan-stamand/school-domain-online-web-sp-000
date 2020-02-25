@@ -29,7 +29,6 @@ class School
   def sort 
     roster.keys.sort.to_h
     roster.values.sort
-    puts roster
   end
 
 end
