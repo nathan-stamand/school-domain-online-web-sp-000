@@ -30,6 +30,7 @@ class School
     roster.each do |grade, array|
       puts grade
       puts array
+    end
   end
 
 end
