@@ -27,7 +27,7 @@ class School
   end
   
   def sort 
-    Hash(roster.sort) 
+    
   end
 
 end
