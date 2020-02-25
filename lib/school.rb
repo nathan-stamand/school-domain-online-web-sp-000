@@ -4,13 +4,15 @@ class School
   def initialize(name)
     @name = name 
     def roster 
-      roster = {}
-      return roster
+      ROSTER = {}
+      return ROSTER
     end
   end
   
   def add_student(student, grade)
-    roster[grade] = student
+    if ROSTER.keys.none?(grade)
+      ROSTER[grade] = [student]
+    end
   end
   
   
