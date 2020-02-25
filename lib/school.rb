@@ -9,7 +9,7 @@ class School
     end
   end
   
-  def add_student=(student, grade)
+  def add_student(student, grade)
     roster[student] = grade
   end
   
