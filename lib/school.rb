@@ -17,6 +17,8 @@ class School
   def add_student(student, grade)
     if roster.keys.none?(grade)
       roster[grade] = [student]
+    elsif roster.keys.any?(grade)
+      roster[grade] << student 
     end
   end  
 
